@@ -11,10 +11,10 @@ You need Python 3.12+ and a running PostgreSQL server.
 Clone the repo and create a virtual environment:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/SrishtiKesh2705/Bulk-Certificate-Generator.git
+cd Bulk-Certificate-Generator
 python -m venv env
-source env/Scripts/activate      # Windows Git Bash
+source env/Scripts/activate      
 pip install -r requirements.txt
 ```
 
@@ -29,7 +29,7 @@ Create a `.env` file next to `manage.py`:
 ```
 SECRET_KEY=any-long-random-string
 DEBUG=True
-DB_NAME=bulk_certificates
+DB_NAME=bulk_certificate_generator
 DB_USER=postgres
 DB_PASSWORD=your-password
 DB_HOST=localhost
