@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Create an empty PostgreSQL database:
 
 ```sql
-CREATE DATABASE bulk_certificates;
+CREATE DATABASE bulk_certificate_generator;
 ```
 
 Create a `.env` file next to `manage.py`:
